@@ -1,0 +1,1 @@
+let zoom=1;const el=document.getElementById('sheet-scale');const label=document.getElementById('percent');function setZoom(next){zoom=Math.max(.5,Math.min(1.5,next));el.style.zoom=zoom;label.textContent=Math.round(zoom*100)+'%'}document.getElementById('minus').onclick=()=>setZoom(zoom-.1);document.getElementById('plus').onclick=()=>setZoom(zoom+.1);

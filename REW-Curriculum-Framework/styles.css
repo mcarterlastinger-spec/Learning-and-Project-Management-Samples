@@ -1,0 +1,260 @@
+*{box-sizing:border-box}body{margin:0;color:#202d3c;background:#f3f6fa;font:14px/1.4 system-ui,Segoe UI,Arial,sans-serif}header{background:#14283f;color:white;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:15px 24px;flex-wrap:wrap}.brand{display:flex;flex-direction:column;gap:3px}.brand>a{font-size:18px;font-weight:700;color:white;text-decoration:none}.brand span{font-size:12px;color:#c2d3e4}nav{display:flex;gap:8px;flex-wrap:wrap}nav a{padding:9px 13px;color:#e7f0f8;text-decoration:none;border-radius:6px;border:1px solid #4a6076}nav a.active,nav a:hover{background:#e7f1fa;color:#132b43}.toolbar{display:flex;gap:15px;align-items:center;padding:12px 22px;background:white;border-bottom:1px solid #d7dfe7;flex-wrap:wrap}.toolbar span{color:#667585;font-size:12px}.zoom{margin-left:auto;display:flex;align-items:center;gap:9px}.zoom button{background:white;border:1px solid #c5d1dc;border-radius:5px;padding:4px 11px;cursor:pointer;font-size:17px}.sheet-scroll{height:calc(100vh - 175px);overflow:auto;background:#e8eef5;padding:12px}#sheet-scale{transform-origin:top left;display:inline-block}.excel{table-layout:fixed;border-collapse:collapse;background:white;width:max-content;box-shadow:0 1px 10px #172b4322}.excel td{border:1px solid #dfe4ea;padding:2px 5px;min-height:20px;height:inherit;white-space:pre;vertical-align:bottom;overflow:hidden}.excel td.empty{background:white}footer{padding:8px 22px;font-size:12px;color:#667585}footer a{color:#235b95}
+.s0{font-family:"Aptos Narrow";font-size:11pt;color:#000000}
+.s1{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700}
+.s2{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF}
+.s3{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF}
+.s4{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFF00}
+.s5{font-family:"Aptos Narrow";font-size:12pt;color:#000000;text-align:center}
+.s6{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#E7E6E6}
+.s7{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF;text-align:center}
+.s8{font-family:"Aptos Narrow";font-size:12pt;color:#000000;font-weight:700;background-color:#FFFFFF}
+.s9{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF;text-align:left}
+.s10{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF}
+.s11{font-family:"Aptos Narrow";font-size:14pt;color:#002060;font-weight:700;background-color:#FFFFFF}
+.s12{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;text-align:right}
+.s13{font-family:"Aptos Narrow";font-size:14pt;color:#002060;font-weight:700;background-color:#FFFFFF;text-align:left}
+.s14{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF;border-right:1px solid #b9c1cb;text-align:center}
+.s15{font-family:"Aptos Narrow";font-size:16pt;color:#000000;background-color:#FFFFFF}
+.s16{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s17{font-family:"Aptos Narrow";font-size:14pt;color:#002060;font-weight:700;background-color:#FFFFFF;border-right:1px solid #b9c1cb;text-align:center}
+.s18{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s19{font-family:"Aptos Narrow";font-size:14pt;color:#002060;font-weight:700;background-color:#FFFFFF;border-left:1px solid #b9c1cb}
+.s20{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#002060}
+.s21{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#002060;border-right:1px solid #b9c1cb;text-align:center}
+.s22{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#002060;text-align:left;white-space:pre-wrap;overflow-wrap:anywhere}
+.s23{font-family:"Aptos Narrow";font-size:12pt;color:#0070C0;font-weight:700;background-color:#FFFFFF;text-align:center}
+.s24{font-family:"Aptos Narrow";font-size:20pt;color:#002060;font-weight:700;background-color:#FFFFFF;text-align:left;vertical-align:top}
+.s25{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;text-align:left}
+.s26{font-family:"Aptos Narrow";font-size:12pt;color:#0070C0;font-weight:700;background-color:#002060;text-align:center}
+.s27{font-family:"Aptos Narrow";font-size:11pt;background-color:#002060}
+.s28{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#E7E6E6}
+.s29{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#E7E6E6}
+.s30{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s31{font-family:"Aptos Narrow";font-size:11pt;background-color:#E7E6E6}
+.s32{font-family:"Aptos Narrow";font-size:16pt;color:#000000;font-weight:700;background-color:#FFFFFF;text-align:left;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s33{font-family:"Aptos Narrow";font-size:16pt;color:#000000;font-weight:700;background-color:#FFFFFF;vertical-align:middle}
+.s34{font-family:"Aptos Narrow";font-size:14pt;font-weight:700;background-color:#E7E6E6}
+.s35{font-family:"Aptos Narrow";font-size:11pt;font-weight:700;background-color:#E7E6E6}
+.s36{font-family:"Aptos Narrow";font-size:11pt;color:#E7E6E6;background-color:#FFFFFF;text-align:left;vertical-align:top}
+.s37{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;vertical-align:middle}
+.s38{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;text-align:left}
+.s39{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF;vertical-align:top}
+.s40{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF;text-align:left;vertical-align:top}
+.s41{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;text-align:left;vertical-align:top}
+.s42{font-family:"Aptos Narrow";font-size:16pt;color:#000000;font-weight:700;background-color:#FFFFFF;text-align:left;vertical-align:top}
+.s43{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;text-align:left;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s44{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#70AD47;text-align:center;vertical-align:middle}
+.s45{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-left:2px solid #b9c1cb}
+.s46{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-right:2px solid #b9c1cb}
+.s47{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-left:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb}
+.s48{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-bottom:2px solid #b9c1cb}
+.s49{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-right:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb}
+.s50{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-left:1px solid #b9c1cb;border-right:2px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:center}
+.s51{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#70AD47;border-left:1px solid #b9c1cb;border-right:2px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:center}
+.s52{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#70AD47;text-align:right;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s53{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#70AD47;text-align:left;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s54{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s55{font-family:"Aptos Narrow";font-size:16pt;color:#000000;font-weight:700;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s56{font-family:"Aptos Narrow";font-size:16pt;color:#000000;font-weight:700;background-color:#FFFFFF;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s57{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF;vertical-align:middle}
+.s58{font-family:"Aptos Narrow";font-size:16pt;color:#002060;font-weight:700;background-color:#FFFFFF;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s59{font-family:"Aptos Narrow";font-size:16pt;color:#002060;font-weight:700;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s60{font-family:"Aptos Narrow";font-size:14pt;color:#000000;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s61{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s62{font-family:"Aptos Narrow";font-size:16pt;color:#002060;font-weight:700;background-color:#FFFFFF;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s63{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF}
+.s64{font-family:"Aptos Narrow";font-size:11pt;color:#C00000;font-weight:700;background-color:#FFFFFF}
+.s65{font-family:"Aptos Narrow";font-size:14pt;font-weight:700;background-color:#E7E6E6;border-left:1px solid #b9c1cb;border-right:1px solid #b9c1cb;border-top:1px solid #b9c1cb;border-bottom:1px solid #b9c1cb;text-align:center;vertical-align:middle}
+.s66{font-family:"Aptos Narrow";font-size:14pt;color:#C00000;font-weight:700;background-color:#E7E6E6;border-left:1px solid #b9c1cb;border-right:1px solid #b9c1cb;border-top:1px solid #b9c1cb;border-bottom:1px solid #b9c1cb;text-align:center}
+.s67{font-family:"Aptos Narrow";font-size:16pt;color:#000000;font-weight:700;background-color:#FFFFFF;border-left:2px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:center}
+.s68{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF;border-right:1px solid #b9c1cb;text-align:center}
+.s69{font-family:"Aptos Narrow";font-size:14pt;color:#002060;font-weight:700;background-color:#FFFFFF;border-right:1px solid #b9c1cb;text-align:center}
+.s70{font-family:"Aptos Narrow";font-size:14pt;color:#002060;font-weight:700;background-color:#FFFFFF}
+.s71{font-family:"Aptos Narrow";font-size:14pt;color:#000000;background-color:#FFFFFF}
+.s72{font-family:"Aptos Narrow";font-size:16pt;color:#000000;font-weight:700;background-color:#FFFFFF;text-align:left;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s73{font-family:"Aptos Narrow";font-size:16pt;color:#000000;font-weight:700;background-color:#FFFFFF;text-align:left;vertical-align:top}
+.s74{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;text-align:left;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s75{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;text-align:right;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s76{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;text-align:center;vertical-align:middle}
+.s77{font-family:"Aptos Narrow";font-size:16pt;color:#000000;font-weight:700;background-color:#FFFFFF;vertical-align:middle}
+.s78{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s79{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s80{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;text-align:left}
+.s81{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s82{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-left:1px solid #b9c1cb;border-right:2px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:center}
+.s83{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-left:2px solid #b9c1cb}
+.s84{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-right:2px solid #b9c1cb}
+.s85{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s86{font-family:"Aptos Narrow";font-size:14pt;color:#002060;font-weight:700;background-color:#FFFFFF;border-left:1px solid #b9c1cb;text-align:left}
+.s87{font-family:"Aptos Narrow";font-size:16pt;color:#FFFFFF;font-weight:700;background-color:#4472C4;border-right:1px solid #b9c1cb;text-align:center}
+.s88{font-family:"Aptos Narrow";font-size:16pt;color:#FFFFFF;font-weight:700;background-color:#4472C4}
+.s89{font-family:"Aptos Narrow";font-size:12pt;color:#000000;font-weight:700;background-color:#4472C4}
+.s90{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#4472C4}
+.s91{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-left:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s92{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s93{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-right:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s94{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;vertical-align:top}
+.s95{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;text-align:left;vertical-align:top}
+.s96{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF}
+.s97{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF;border-right:1px solid #b9c1cb;text-align:center}
+.s98{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF}
+.s99{font-family:"Aptos Narrow";font-size:11pt;background-color:#FFFFFF}
+.s100{font-family:"Aptos Narrow";font-size:14pt;color:#002060;font-weight:700;background-color:#FFFFFF;border-left:1px solid #b9c1cb}
+.s101{font-family:"Aptos Narrow";font-size:14pt;color:#002060;font-weight:700;background-color:#FFFFFF}
+.s102{font-family:"Aptos Narrow";font-size:16pt;color:#000000;font-weight:700;background-color:#FFFFFF;text-align:left;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s103{font-family:"Aptos Narrow";font-size:16pt;color:#000000;font-weight:700;background-color:#FFFFFF;text-align:left;vertical-align:top}
+.s104{font-family:"Aptos Narrow";font-size:16pt;color:#000000;font-weight:700;background-color:#FFFFFF;vertical-align:middle}
+.s105{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;text-align:left;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s106{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;text-align:right;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s107{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;text-align:center;vertical-align:middle}
+.s108{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s109{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s110{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s111{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-left:1px solid #b9c1cb;border-right:2px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:center}
+.s112{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;text-align:right;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s113{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;text-align:center;vertical-align:middle}
+.s114{font-family:"Aptos Narrow";font-size:14pt;color:#002060;font-weight:700;background-color:#FFFFFF;border-right:1px solid #b9c1cb;text-align:center}
+.s115{font-family:"Aptos Narrow";font-size:16pt;color:#000000;font-weight:700;background-color:#FFFFFF;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s116{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF;vertical-align:top}
+.s117{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF;vertical-align:middle}
+.s118{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF;text-align:left;vertical-align:top}
+.s119{font-family:"Aptos Narrow";font-size:11pt;color:#C00000;font-weight:700;background-color:#FFFFFF}
+.s120{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-left:2px solid #b9c1cb}
+.s121{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-right:2px solid #b9c1cb}
+.s122{font-family:"Aptos Narrow";font-size:16pt;color:#002060;font-weight:700;background-color:#FFFFFF;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s123{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s124{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;text-align:left}
+.s125{font-family:"Aptos Narrow";font-size:14pt;color:#002060;font-weight:700;background-color:#FFFF00}
+.s126{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFF00}
+.s127{font-family:"Aptos Narrow";font-size:16pt;color:#002060;font-weight:700;background-color:#FFFFFF;border-right:1px solid #b9c1cb;text-align:center}
+.s128{font-family:"Aptos Narrow";font-size:16pt;color:#002060;font-weight:700;background-color:#FFFFFF;border-left:1px solid #b9c1cb}
+.s129{font-family:"Aptos Narrow";font-size:16pt;color:#002060;font-weight:700;background-color:#FFFFFF}
+.s130{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#F7F0D9}
+.s131{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FCF9EE;text-align:left;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s132{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FCF9EE;text-align:right;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s133{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FCF9EE}
+.s134{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FCF9EE;text-align:center;vertical-align:middle}
+.s135{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#EBF3FB;text-align:left;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s136{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#EBF3FB;text-align:right;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s137{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#EBF3FB}
+.s138{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#EBF3FB;text-align:center;vertical-align:middle}
+.s139{font-family:"Aptos";font-size:10pt;color:#000000;background-color:#FFFFFF;text-align:left;vertical-align:middle}
+.s140{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFF00;border-right:1px solid #b9c1cb;text-align:center}
+.s141{font-family:"Aptos Narrow";font-size:14pt;color:#002060;font-weight:700;background-color:#FFFF00;border-right:1px solid #b9c1cb;text-align:center}
+.s142{font-family:"Aptos Narrow";font-size:14pt;color:#002060;font-weight:700;background-color:#FFFF00;border-left:1px solid #b9c1cb}
+.s143{font-family:"Aptos Narrow";font-size:14pt;color:#000000;background-color:#FFFFFF;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s144{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFC000;text-align:left;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s145{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s146{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFC000;border-left:1px solid #b9c1cb;border-right:2px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:center}
+.s147{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-right:2px solid #b9c1cb;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s148{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-left:2px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle}
+.s149{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle}
+.s150{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-right:1px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle}
+.s151{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;text-align:right;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s152{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-left:2px solid #b9c1cb;border-top:2px solid #b9c1cb}
+.s153{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-top:2px solid #b9c1cb}
+.s154{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-right:2px solid #b9c1cb;border-top:2px solid #b9c1cb}
+.s155{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-left:2px solid #b9c1cb;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s156{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s157{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-right:2px solid #b9c1cb;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s158{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-left:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s159{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s160{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-right:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s161{font-family:"Aptos Narrow";font-size:14pt;color:#000000;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s162{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s163{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-left:2px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle}
+.s164{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle}
+.s165{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFC000;border-left:2px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle}
+.s166{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFC000;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle}
+.s167{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;border-left:2px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle}
+.s168{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle}
+.s169{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;border-right:2px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle}
+.s170{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-left:2px solid #b9c1cb;border-top:2px solid #b9c1cb;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s171{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-top:2px solid #b9c1cb;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s172{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-right:2px solid #b9c1cb;border-top:2px solid #b9c1cb;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s173{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;border-left:2px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s174{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s175{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFC000;text-align:left;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s176{font-family:"Aptos Narrow";font-size:12pt;color:#000000;font-weight:700;background-color:#F7F0D9;text-align:center}
+.s177{font-family:"Aptos Narrow";font-size:14pt;color:#000000;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s178{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s179{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#EBF3FB;text-align:right;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s180{font-family:"Aptos Narrow";font-size:16pt;color:#002060;font-weight:700;background-color:#FFFFFF;text-align:left;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s181{font-family:"Aptos Narrow";font-size:16pt;color:#000000;font-weight:700;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s182{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF;text-align:left}
+.s183{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#F7F0D9;text-align:right;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s184{font-family:"Aptos Narrow";font-size:14pt;color:#000000;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s185{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-right:1px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle}
+.s186{font-family:"Aptos Narrow";font-size:16pt;color:#002060;font-weight:700;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s187{font-family:"Aptos Narrow";font-size:14pt;color:#002060;font-weight:700;background-color:#FFFFFF;border-left:1px solid #b9c1cb;text-align:left}
+.s188{font-family:"Aptos Narrow";font-size:14pt;color:#002060;font-weight:700;background-color:#FFFFFF;text-align:left}
+.s189{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;border-right:2px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s190{font-family:"Aptos Narrow";font-size:18pt;color:#002060;font-weight:700;background-color:#FFFFFF;border-left:2px solid #b9c1cb;border-top:2px solid #b9c1cb;text-align:center;vertical-align:middle}
+.s191{font-family:"Aptos Narrow";font-size:18pt;color:#002060;font-weight:700;background-color:#FFFFFF;border-top:2px solid #b9c1cb;text-align:center;vertical-align:middle}
+.s192{font-family:"Aptos Narrow";font-size:18pt;color:#002060;font-weight:700;background-color:#FFFFFF;border-right:2px solid #b9c1cb;border-top:2px solid #b9c1cb;text-align:center;vertical-align:middle}
+.s193{font-family:"Aptos Narrow";font-size:18pt;color:#002060;font-weight:700;background-color:#FFFFFF;border-left:2px solid #b9c1cb;text-align:center;vertical-align:middle}
+.s194{font-family:"Aptos Narrow";font-size:18pt;color:#002060;font-weight:700;background-color:#FFFFFF;text-align:center;vertical-align:middle}
+.s195{font-family:"Aptos Narrow";font-size:18pt;color:#002060;font-weight:700;background-color:#FFFFFF;border-right:2px solid #b9c1cb;text-align:center;vertical-align:middle}
+.s196{font-family:"Aptos Narrow";font-size:18pt;color:#002060;font-weight:700;background-color:#FFFFFF;border-left:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:center;vertical-align:middle}
+.s197{font-family:"Aptos Narrow";font-size:18pt;color:#002060;font-weight:700;background-color:#FFFFFF;border-bottom:2px solid #b9c1cb;text-align:center;vertical-align:middle}
+.s198{font-family:"Aptos Narrow";font-size:18pt;color:#002060;font-weight:700;background-color:#FFFFFF;border-right:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:center;vertical-align:middle}
+.s199{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-left:2px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle}
+.s200{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle}
+.s201{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-right:1px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle}
+.s202{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;border-left:2px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle}
+.s203{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle}
+.s204{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;border-right:2px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle}
+.s205{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-left:2px solid #b9c1cb;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s206{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s207{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-right:2px solid #b9c1cb;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s208{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-left:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s209{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s210{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-right:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s211{font-family:"Aptos Narrow";font-size:16pt;color:#C00000;font-weight:700;background-color:#FFFFFF;border-left:1px solid #b9c1cb;border-right:1px solid #b9c1cb;border-top:1px solid #b9c1cb;text-align:center;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s212{font-family:"Aptos Narrow";font-size:16pt;color:#C00000;font-weight:700;background-color:#FFFFFF;border-left:1px solid #b9c1cb;border-right:1px solid #b9c1cb;text-align:center;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s213{font-family:"Aptos Narrow";font-size:16pt;color:#C00000;font-weight:700;background-color:#FFFFFF;border-left:1px solid #b9c1cb;border-right:1px solid #b9c1cb;border-bottom:1px solid #b9c1cb;text-align:center;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s214{font-family:"Aptos Narrow";font-size:14pt;color:#C00000;font-weight:700;background-color:#FFFFFF;border-left:2px solid #b9c1cb;border-right:2px solid #b9c1cb;border-top:2px solid #b9c1cb;text-align:center;white-space:pre-wrap;overflow-wrap:anywhere}
+.s215{font-family:"Aptos Narrow";font-size:14pt;color:#C00000;font-weight:700;background-color:#FFFFFF;border-left:2px solid #b9c1cb;border-right:2px solid #b9c1cb;text-align:center;white-space:pre-wrap;overflow-wrap:anywhere}
+.s216{font-family:"Aptos Narrow";font-size:14pt;color:#C00000;font-weight:700;background-color:#FFFFFF;border-left:2px solid #b9c1cb;border-right:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:center;white-space:pre-wrap;overflow-wrap:anywhere}
+.s217{font-family:"Aptos Narrow";font-size:12pt;color:#0070C0;font-weight:700;background-color:#FFFFFF;text-align:center}
+.s218{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;text-align:center;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s219{font-family:"Aptos Narrow";font-size:14pt;font-weight:700;background-color:#E7E6E6;text-align:center;vertical-align:middle}
+.s220{font-family:"Aptos Narrow";font-size:16pt;color:#002060;font-weight:700;background-color:#FFFFFF;text-align:center;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s221{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s222{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s223{font-family:"Aptos Narrow";font-size:16pt;color:#000000;font-weight:700;background-color:#FFFFFF;border-left:2px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s224{font-family:"Aptos Narrow";font-size:16pt;color:#000000;font-weight:700;background-color:#FFFFFF;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s225{font-family:"Aptos Narrow";font-size:16pt;color:#000000;font-weight:700;background-color:#FFFFFF;border-right:2px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s226{font-family:"Aptos Narrow";font-size:16pt;color:#002060;font-weight:700;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s227{font-family:"Aptos Narrow";font-size:16pt;color:#000000;font-weight:700;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s228{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s229{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;border-left:2px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s230{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s231{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-left:2px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle}
+.s232{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle}
+.s233{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-right:1px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle}
+.s234{font-family:"Aptos Narrow";font-size:14pt;font-weight:700;background-color:#E7E6E6;border-left:1px solid #b9c1cb;text-align:right}
+.s235{font-family:"Aptos Narrow";font-size:14pt;font-weight:700;background-color:#E7E6E6;text-align:right}
+.s236{font-family:"Aptos Narrow";font-size:14pt;font-weight:700;background-color:#E7E6E6;border-right:1px solid #b9c1cb;text-align:right}
+.s237{font-family:"Aptos Narrow";font-size:16pt;color:#000000;font-weight:700;background-color:#FFFFFF;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left}
+.s238{font-family:"Aptos Narrow";font-size:16pt;color:#000000;font-weight:700;background-color:#FFFFFF;border-right:2px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left}
+.s239{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;border-left:2px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle}
+.s240{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle}
+.s241{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;border-right:2px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle}
+.s242{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-left:2px solid #b9c1cb;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s243{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s244{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-right:2px solid #b9c1cb;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s245{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-left:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s246{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s247{font-family:"Aptos Narrow";font-size:11pt;color:#000000;background-color:#FFFFFF;border-right:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s248{font-family:"Aptos Narrow";font-size:16pt;color:#000000;font-weight:700;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s249{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF;text-align:left}
+.s250{font-family:"Aptos Narrow";font-size:14pt;color:#000000;background-color:#FFFFFF;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s251{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;border-left:2px solid #b9c1cb;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s252{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#FFFFFF;border-top:2px solid #b9c1cb;border-bottom:2px solid #b9c1cb;text-align:left;vertical-align:middle;white-space:pre-wrap;overflow-wrap:anywhere}
+.s253{font-family:"Aptos Narrow";font-size:14pt;color:#002060;font-weight:700;background-color:#FFFF00;border-left:1px solid #b9c1cb;text-align:left}
+.s254{font-family:"Aptos Narrow";font-size:14pt;color:#002060;font-weight:700;background-color:#FFFF00;text-align:left}
+.s255{font-family:"Aptos Narrow";font-size:11pt;color:#000000;font-weight:700;background-color:#F7F0D9;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}
+.s256{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#4472C4;text-align:left;white-space:pre-wrap;overflow-wrap:anywhere}
+.s257{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF;text-align:left;white-space:pre-wrap;overflow-wrap:anywhere}
+.s258{font-family:"Aptos Narrow";font-size:12pt;color:#000000;background-color:#FFFFFF;border-right:1px solid #b9c1cb;text-align:left}
